@@ -147,11 +147,12 @@ hr {
 /* White Wrap */
 
 #w {
-  background: #ffffff;
+  background: #e5e4e6;
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center;
 }
+
 
 #w h3 {
   font-weight: 700;
@@ -159,9 +160,11 @@ hr {
   letter-spacing: 1px;
 }
 
+/*
 #w bold {
   color: #2f2f2f;
 }
+*/
 
 /* Grey Wrap */
 
@@ -170,6 +173,16 @@ hr {
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center;
+}
+
+#g h3 {
+  font-weight: 700;
+  color: #7b7b7b;
+  letter-spacing: 1px;
+}
+
+#g td{
+  text-align: left;
 }
 
 /* Dark Grey Wrap */
@@ -205,7 +218,7 @@ hr {
 
 #copyrights {
   background: #222222;
-  padding: 15px 0;
+  padding: 20px 0;
   text-align: center;
   color: #fff;
 }
@@ -440,7 +453,7 @@ hr {
 /* BUTTON CONF */
 
 .btn-theme {
-  color: #fff;
+  color: #ffffff;
   background-color: #1abc9c;
   padding-left: 40px;
   padding-right: 40px;
@@ -454,6 +467,20 @@ hr {
   cursor: pointer;
   color: white;
   background-color: #16a085;
+}
+
+button{
+  background: #f85c37;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f64217;
+  color: #fff;
 }
 
 /* TEAM CONF */
